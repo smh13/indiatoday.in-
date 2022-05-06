@@ -19,6 +19,9 @@
     padding-right: 25%;
     font-size: 40px;
 }
+#b a{
+    color: wheat;
+}
 #c {
 width: auto;
     height: 40px;
@@ -31,4 +34,7 @@ width: auto;
     background-color: #a00606;
     font-size: 23px;
     color: #ddd6d6;
+}
+#c a{
+    color: white;
 }

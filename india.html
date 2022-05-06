@@ -3,23 +3,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="news.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="foot.css">
+    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="inida.css">
     <title>Document</title>
-    
 </head>
 <body>
     <div id="headd"></div>
+    <div id="maine"></div>
     <div id="neww"></div>
+    
 </body>
 </html>
-
 <script type="module">
-     import header from "./header.js"
+    
+
+    import header from "./header.js"
 let headd = document.getElementById("headd");
 headd.innerHTML = header()
-    import news from"./news.js"
-    let neww = document.getElementById("neww")
-    neww.innerHTML= news();
+
+    import inida from"./inida.js"
+    let maine = document.getElementById("maine")
+    maine.innerHTML= inida();
 </script>

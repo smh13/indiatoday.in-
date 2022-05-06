@@ -1,6 +1,5 @@
 function header(){
-    return`
-    <html lang="en">
+    return`<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +21,7 @@ function header(){
             
         </div>
         <div id="b">
-            <a> NEWS</a>
+            <a href="new_news.html"> NEWS</a>
             <a>LIVE TV</a>
             <img src="https://akm-img-a-in.tosshub.com/sites/all/themes/itg/logo.png?v=1.52" alt="">
             <a>APP</a>
@@ -31,7 +30,7 @@ function header(){
         <div id="c">
             <a>Home</a>
             <a>My Feed</a>
-            <a>India</a>
+            <a href="india.html">India</a>
             <a>World</a>
             <a>Buisness</a>
             <a>Tech</a>
@@ -41,6 +40,7 @@ function header(){
             <a>Happiness Quest</a>
         </div>
     </body>
-    </html>`
+    </html>
+       `
 }
 export default header
